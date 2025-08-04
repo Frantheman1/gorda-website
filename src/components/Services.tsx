@@ -1,4 +1,5 @@
 import React from 'react';
+import tarot from '../images/Tarot.jpg';
 
 const Services = () => {
   return (
@@ -36,7 +37,7 @@ const Services = () => {
             <p className="mb-4">
               Koristite tarot karte za dublje uvide u vašu situaciju, donoseći jasnoću i smjernice kroz simboliku karata.
             </p>
-            <img src="src/images/tarot.jpg" alt="Tarot Cards" className="rounded-md mx-auto"/>
+            <img src={tarot} alt="Tarot Cards" className="rounded-md mx-auto"/>
           </div>
           <div className="bg-gradient-to-br from-purple-400 via-purple-500 to-pink-400 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 shadow-purple-500 text-white border-2 border-purple-300">
             <h3 className="text-2xl font-semibold mb-4">Analiza uz Numerologiju</h3>
